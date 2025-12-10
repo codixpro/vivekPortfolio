@@ -11,13 +11,13 @@ const Navbar = () => {
                 {/* Logo */}
                 <div className="flex items-center gap-3">
                     <div className="w-10 h-10 bg-[#FF6A00] text-white rounded-full flex items-center justify-center font-bold">
-                        V
+                        <img src="https://img.freepik.com/premium-photo/modern-bearded-man-living-urban-rush-wearing-wireless-earphones-listen-music-smiling-carefree-like-headphones-quality_1258-6204.jpg?semt=ais_hybrid&w=740&q=80" className="w-full h-full object-cover rounded-full"  alt="" />
                     </div>
                     <h1 className="text-xl font-semibold text-[#FF6A00]">Vivek</h1>
                 </div>
 
                 {/* Desktop Menu */}
-                <ul className="hidden md:flex items-center gap-8 font-medium text-white">
+                <ul className="hidden w-[50%] md:flex items-start justify-start gap-8 font-medium text-white text-left">
                     <a href="#home"><li>Home</li></a>
                     <a href="#skills"><li>Skills</li></a>
                     <a href="#contact"><li>Contact</li></a>
