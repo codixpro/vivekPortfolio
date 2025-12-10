@@ -10,24 +10,24 @@ const Navbar = () => {
 
                 {/* Logo */}
                 <div className="flex items-center gap-3">
-                    <div className="w-10 h-10 bg-orange-600 text-white rounded-full flex items-center justify-center font-bold">
+                    <div className="w-10 h-10 bg-[#FF6A00] text-white rounded-full flex items-center justify-center font-bold">
                         V
                     </div>
-                    <h1 className="text-xl font-semibold text-orange-600">Vivek</h1>
+                    <h1 className="text-xl font-semibold text-[#FF6A00]">Vivek</h1>
                 </div>
 
                 {/* Desktop Menu */}
                 <ul className="hidden md:flex items-center gap-8 font-medium text-white">
-                    <li><a href="#home" className="hover:text-orange-600">Home</a></li>
-                    <li><a href="#skills" className="hover:text-orange-600">Skills</a></li>
-                    <li><a href="#projects" className="hover:text-orange-600">Projects</a></li>
-                    <li><a href="#services" className="hover:text-orange-600">Services</a></li>
-                    <li><a href="#about" className="hover:text-orange-600">About</a></li>
-                    <li><a href="#contact" className="hover:text-orange-600">Contact</a></li>
+                    <li><a href="#home" className="hover:text-[#FF6A00]">Home</a></li>
+                    <li><a href="#skills" className="hover:text-[#FF6A00]">Skills</a></li>
+                    <li><a href="#projects" className="hover:text-[#FF6A00]">Projects</a></li>
+                    <li><a href="#services" className="hover:text-[#FF6A00]">Services</a></li>
+                    <li><a href="#about" className="hover:text-[#FF6A00">About</a></li>
+                    <li><a href="#contact" className="hover:text-[#FF6A00">Contact</a></li>
                 </ul>
 
                 {/* Desktop CTA */}
-                <button className="hidden md:block bg-orange-600 text-white px-5 py-2 rounded-full hover:bg-orange-600 transition">
+                <button className="hidden md:block bg-[#FF6A00] text-white px-5 py-2 rounded-full hover:bg-[#FF6A00] transition">
                     Download CV
                 </button>
 
@@ -51,7 +51,7 @@ const Navbar = () => {
                     <a href="#about" onClick={() => setOpen(false)}><li>About</li></a>
                     <a href="#contact" onClick={() => setOpen(false)}><li>Contact</li></a>
 
-                    <button className="bg-orange-600 text-white px-5 py-2 rounded-full mt-3">
+                    <button className="bg-[#FF6A00] text-white px-5 py-2 rounded-full mt-3">
                         Download CV
                     </button>
                 </ul>

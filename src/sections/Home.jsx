@@ -10,20 +10,20 @@ const Home = () => {
     >
 
       <div className="z-10 flex flex-col items-center px-4 text-center">
-        <p className="text-sm font-medium text-orange-600">PRODUCT MANAGEMENT . UX STRATEGY</p>
+        <p className="text-sm font-medium text-[#FF6A00]">PRODUCT MANAGEMENT . UX STRATEGY</p>
         <h1 className="text-4xl md:text-5xl font-extrabold leading-tight">
-          Hi, I'm <span className="text-orange-600">Vivek.</span>
+          Hi, I'm <span className="text-[#FF6A00]">Vivek.</span>
         </h1>
         <p className=" text-md  mt-2 text-gray-200 ">
           I turn research and requirements into clear PRDs, aligned roadmaps, and iterative product launches.
         </p>
 
         <div className="mt-6 flex gap-5">
-          <button className="bg-orange-600 text-white px-6 py-2.5 rounded-full hover:border-2 hover:bg-transparent hover:border-orange-600 hover:text-orange-600 transition-all duration-200">
-            View Portfolio
+          <button className="bg-[#FF6A00] text-white px-6 py-2.5 rounded-full hover:border-2 hover:bg-transparent hover:border-[#FF6A00] hover:text-[#FF6A00] transition-all duration-200">
+            Skills & Work
           </button>
 
-          <button className="bg-gray-200 text-orange-600 px-6 py-2.5 rounded-full  hover:border-2 hover:bg-transparent hover:border-orange-600 hover:text-orange-600 transition-all duration-200">
+          <button className="bg-gray-200 text-[#FF6A00] px-6 py-2.5 rounded-full  hover:border-2 hover:bg-transparent hover:border-[#FF6A00] hover:text-[#FF6A00] transition-all duration-200">
             Download CV
           </button>
         </div>
