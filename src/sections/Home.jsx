@@ -19,11 +19,11 @@ const Home = () => {
         </p>
 
         <div className="mt-6 flex gap-5">
-          <button className="bg-[#FF6A00] text-white px-6 py-2.5 rounded-full hover:border-2 hover:bg-transparent hover:border-[#FF6A00] hover:text-[#FF6A00] transition-all duration-200">
+          <button className="bg-[#FF6A00] text-white px-6 py-2.5 rounded-full hover:border-2 hover:bg-transparent hover:border-[#FF6A00] hover:text-white transition-all duration-200">
             Skills & Work
           </button>
 
-          <button className="bg-gray-200 text-[#FF6A00] px-6 py-2.5 rounded-full  hover:border-2 hover:bg-transparent hover:border-[#FF6A00] hover:text-[#FF6A00] transition-all duration-200">
+          <button className="bg-gray-200 text-[#FF6A00] px-6 py-2.5 rounded-full  hover:border-2 hover:bg-transparent hover:border-[#FF6A00] hover:text-white transition-all duration-200">
             Download CV
           </button>
         </div>

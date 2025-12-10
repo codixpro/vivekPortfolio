@@ -18,17 +18,14 @@ const Navbar = () => {
 
                 {/* Desktop Menu */}
                 <ul className="hidden md:flex items-center gap-8 font-medium text-white">
-                    <li><a href="#home" className="hover:text-[#FF6A00]">Home</a></li>
-                    <li><a href="#skills" className="hover:text-[#FF6A00]">Skills</a></li>
-                    <li><a href="#projects" className="hover:text-[#FF6A00]">Projects</a></li>
-                    <li><a href="#services" className="hover:text-[#FF6A00]">Services</a></li>
-                    <li><a href="#about" className="hover:text-[#FF6A00">About</a></li>
-                    <li><a href="#contact" className="hover:text-[#FF6A00">Contact</a></li>
+                    <a href="#home"><li>Home</li></a>
+                    <a href="#skills"><li>Skills</li></a>
+                    <a href="#contact"><li>Contact</li></a>
                 </ul>
 
                 {/* Desktop CTA */}
-                <button className="hidden md:block bg-[#FF6A00] text-white px-5 py-2 rounded-full hover:bg-[#FF6A00] transition">
-                    Download CV
+                <button className="hidden md:block bg-[#FF6A00] text-white px-5 py-2 rounded-full hover:bg-transparent hover:text-white hover:border-2 hover:border-[#FF6A00] transition">
+                    View CV
                 </button>
 
                 {/* MOBILE ICON TOGGLE */}
@@ -45,14 +42,11 @@ const Navbar = () => {
                 className={`md:hidden absolute top-18 w-full bg-gray-200 shadow-lg rounded-xl overflow-hidden transition-all duration-300 ease-out z-100 ${open ? "max-h-96 opacity-100 translate-y-0" : "max-h-0 opacity-0 translate-y-[-10px]"}`}>
                 <ul className="flex flex-col gap-4 p-6 text-gray-700 font-medium">
                     <a href="#home" onClick={() => setOpen(false)}><li>Home</li></a>
-                    <a href="#skills" onClick={() => setOpen(false)}><li>Skills</li></a>
-                    <a href="#projects" onClick={() => setOpen(false)}><li>Projects</li></a>
-                    <a href="#services" onClick={() => setOpen(false)}><li>Services</li></a>
                     <a href="#about" onClick={() => setOpen(false)}><li>About</li></a>
                     <a href="#contact" onClick={() => setOpen(false)}><li>Contact</li></a>
 
-                    <button className="bg-[#FF6A00] text-white px-5 py-2 rounded-full mt-3">
-                        Download CV
+                    <button className="bg-[#FF6A00] text-white px-5 py-2 rounded-full mt-3 hover:bg-transparent hover:text-[#FF6A00] hover:border-2 hover:border-[#FF6A00] transition">
+                        View CV
                     </button>
                 </ul>
             </div>
