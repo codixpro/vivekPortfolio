@@ -25,7 +25,7 @@ const App = () => {
         <Navbar/>
         <Home />
         <section id="skills" className="p-6 bg-black text-white" >
-          <Skills />
+          <Filter />
         </section>
 
       </div>
