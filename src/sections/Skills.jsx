@@ -4,19 +4,19 @@ const Skills = ({key, title, description, categories, categories2 ,link}) => {
   return (
     <div key={key}>
       <div className="flex items-center justify-center gap-8 pt-12">
-        <a href={link} target="_blank" className="text-white w-[350px] border border-orange-500 p-4 rounded-2xl hover:shadow-lg hover:shadow-orange-500/50 hover:scale-105 transition-all duration-200">
+        <a href={link} target="_blank" className="text-white w-[350px] bg-[radial-gradient(circle_at_50%_10%,rgba(255,255,255,0.03),transparent_70%),linear-gradient(135deg,#1B1B1B_0%,#0F0F0F_100%)] border border-orange-500 p-4 rounded-2xl hover:shadow-lg hover:shadow-orange-500/50 hover:scale-105 transition-all duration-200">
           <h1 className="text-2xl font-bold">{title}</h1>
-          <p className="mt-3 text-xs">{description}</p>
+          <p className="mt-3 text-gray-300 text-xs">{description}</p>
           <div className="flex gap-2 mt-3.5">
-            <span className="inline-block text-xs px-3 py-1 rounded-[6px] bg-gray-900 text-gray-400 ">
+            <span className="inline-block text-xs px-3 py-1 rounded-[6px] bg-[#2C2D31] text-gray-400 ">
               Document
             </span>
-            <span className="inline-block text-xs px-3 py-1 rounded-[6px] bg-gray-900 text-gray-400 ">
+            <span className="inline-block text-xs px-3 py-1 rounded-[6px] bg-[#2C2D31] text-gray-400 ">
               {categories}
             </span>
           </div>
           <div className="flex justify-between gap-2 mt-3.5">
-            <div className="text-white text-sm flex items-center gap-1">16 PRDs <FileText size={16} /></div>
+            <div className="text-gray-400 text-sm flex items-center gap-1">16 PRDs <FileText size={16} /></div>
             <div className="text-orange-500 text-sm flex items-center gap-2">View PRDs <MoveRight size={16} /></div>
         </div>
       </a>
