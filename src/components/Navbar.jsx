@@ -18,7 +18,7 @@ const Navbar = () => {
 
                 {/* Desktop Menu */}
                 <ul className="hidden w-[50%] md:flex items-start justify-start gap-8 font-medium text-white text-left">
-                    <a href="#home"><li>Home</li></a>
+                    <a onclick="location.reload()" href="#home"><li>Home</li></a>
                     <a href="#skills"><li>Skills</li></a>
                     <a href="#contact"><li>Contact</li></a>
                 </ul>
@@ -41,7 +41,7 @@ const Navbar = () => {
             <div
                 className={`md:hidden absolute top-18 w-full bg-gray-200 shadow-lg rounded-xl overflow-hidden transition-all duration-300 ease-out z-100 ${open ? "max-h-96 opacity-100 translate-y-0" : "max-h-0 opacity-0 translate-y-[-10px]"}`}>
                 <ul className="flex flex-col gap-4 p-6 text-gray-700 font-medium">
-                    <a href="#home" onClick={() => setOpen(false)}><li>Home</li></a>
+                    <a onClick={() => window.location.reload()} ><li>Home</li></a>
                     <a href="#about" onClick={() => setOpen(false)}><li>About</li></a>
                     <a href="#contact" onClick={() => setOpen(false)}><li>Contact</li></a>
 

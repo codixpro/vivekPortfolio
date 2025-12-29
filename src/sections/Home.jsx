@@ -2,7 +2,7 @@ import React from "react";
 
 
 
-const Home = () => {
+const Home = ({ onSkillClick }) => {
   return (
     <section
       id="home"
@@ -19,7 +19,7 @@ const Home = () => {
         </p>
 
         <div className="mt-6 flex gap-5">
-          <button className="bg-[#FF6A00] text-white px-6 py-2.5 rounded-full hover:border-2 hover:bg-transparent hover:border-[#FF6A00] hover:text-white transition-all duration-200">
+          <button onClick={onSkillClick} className="bg-[#FF6A00] text-white px-6 py-2.5 rounded-full hover:border-2 hover:bg-transparent hover:border-[#FF6A00] hover:text-white transition-all duration-200">
             Skills & Work
           </button>
 
