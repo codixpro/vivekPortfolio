@@ -3,6 +3,7 @@ import Home from "./sections/Home";
 import Skills from "./sections/Skills";
 import Navbar from "./components/Navbar";
 import Filter from "./sections/Filter";
+import Footer from "./components/Footer";
 
 const App = () => {
   const [activeSection, setActiveSection] = useState("home");
@@ -20,6 +21,7 @@ const App = () => {
         {activeSection === "skills" && (
           <Filter onHomeClick={() => setActiveSection("home")} />
         )}
+        <Footer />
       </div>
     </div>
   );
