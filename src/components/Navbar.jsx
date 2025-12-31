@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className="w-full flex justify-center relative">
             {/* NAVBAR MAIN */}
-            <div className="bg-[rgba(15,15,15,0.7)] backdrop-blur-[10px] shadow-lg flex items-center justify-between md:justify-around px-6 py-3 w-full z-20 top-0 fixed">
+            <div className="bg-[rgba(12,12,12,0.9)] border-t border-white/5 shadow-lg flex items-center justify-between md:justify-around px-6 py-3 w-full z-20 top-0 fixed">
 
                 {/* Logo */}
                 <div className="flex items-center gap-3">
