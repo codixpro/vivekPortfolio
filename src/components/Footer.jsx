@@ -3,7 +3,7 @@ import { Instagram,Linkedin } from 'lucide-react';
 
 const Footer = () => {
     return (
-        <div className='bg-[rgba(15,15,15,1)] backdrop-blur-[10px] inset-shadow-sm inset-shadow-[]  items-center justify-between px-3 py-3 w-full z-20 bottom-0 fixed'>
+        <div className='bg-[rgba(12,12,12,0.9)] border-t border-white/5 inset-shadow-sm inset-shadow-[]  items-center justify-between px-3 py-3 w-full z-20 '>
             <hr className='border-gray-800 mt-2 mb-2' />
             <div className='flex items-center justify-around'>
                 <div>

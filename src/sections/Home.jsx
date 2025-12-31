@@ -6,7 +6,7 @@ const Home = ({ onSkillClick }) => {
   return (
     <section
       id="home"
-      className="relative flex flex-col items-center justify-center h-screen text-white overflow-hidden"
+      className="relative flex flex-col items-center justify-center h-[90vh] text-white overflow-hidden"
     >
 
       <div className="z-10 flex flex-col items-center px-4 text-center">
