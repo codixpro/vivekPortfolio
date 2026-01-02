@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Skills from "./Skills";
-import { Undo2 } from 'lucide-react';
+import { Undo2,FolderOpen  } from 'lucide-react';
 const SHEET_URL =
     "https://docs.google.com/spreadsheets/d/e/2PACX-1vSy7QqKiwrJ6D4LwACgpvAHiSfXVAVD8-M9dXCVtD4HUyY0BlMndqct75jto_X4vGuTNlZHHp17c0A6/pub?gid=0&single=true&output=csv";
 
@@ -48,13 +48,16 @@ const Filter = ({ onHomeClick }) => {
     return (
         <div className="flex justify-center items-center pt-10">
             <section className="max-w-6xl mx-auto px-4 py-10 w-full">
-                {/* Back Button */}
-                <button
-                    onClick={onHomeClick}
-                    className="flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition bg-gray-200 text-gray-700 hover:bg-orange-500 hover:text-white"
-                >
-                    <Undo2 /> Home
-                </button>
+                <div className="flex justify-between pb-4">
+                    <button
+                        onClick={onHomeClick}
+                        className="flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition bg-gray-200 text-gray-700 hover:bg-orange-500 hover:text-white">
+                        <Undo2 /> Home
+                    </button>
+                    <button className="flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition bg-orange-500 text-white hover:bg-gray-500 hover:text-white">
+                        <FolderOpen  /> Project
+                    </button>
+                </div>
 
                 {/* Heading */}
                 <h1 className="text-4xl font-bold text-white text-center mb-6">
