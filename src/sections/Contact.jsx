@@ -14,12 +14,12 @@ const Contact = () => {
                     </p>
                 </div>
                 {/* Form Wrapper */}
-                <div className="-mt-2 rounded-xl overflow-hidden  border-white/20 relative">
+                <div className="-mt-2 rounded-xl overflow-hidden  border-white/10 relative">
                     <TallyForm
                         formId="kdeAed"
                         style={{
                             width: "100%",
-                            height: "520px",
+                            height: "300px",
                             border: "none",
                         }}
                     />
