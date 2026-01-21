@@ -16,7 +16,7 @@ const Contact = () => {
                 {/* Form Wrapper */}
                 <div className="-mt-2 rounded-xl overflow-hidden  border-white/10 relative">
                     <TallyForm
-                        formId="kdeAed"
+                        formId="kdeAed" className="text-black"
                         style={{
                             width: "100%",
                             height: "300px",
